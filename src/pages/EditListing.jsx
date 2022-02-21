@@ -212,6 +212,7 @@ function EditListing() {
     setLoading(false)
     toast.success('Listing saved')
     navigate(`/category/${formDataCopy.type}/${docRef.id}`)
+    
   }
 
   const onMutate = (e) => {
