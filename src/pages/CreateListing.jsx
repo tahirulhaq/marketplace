@@ -15,7 +15,7 @@ import Spinner from '../components/Spinner'
 function CreateListing() {
 
     const [loading , setLoading] = useState(false)
-    const [geolocationEnabled, setGeolocationEnabled] = useState(false)
+    const [geolocationEnabled] = useState(false)
     const [formData, setFormData] = useState({
         type: 'rent',
         name: '',
